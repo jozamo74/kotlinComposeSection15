@@ -11,7 +11,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.section_15.ui.theme.Section_15Theme
-import com.example.section_15.ui.theme.SimpleRecyclerView
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +23,9 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 //                    Greeting("Android")
-                    SimpleRecyclerView()
+//                    SuperHeroViewGrid()
+//                    SuperHeroWithSpecialControlsView()
+                    SuperHeroStickyView()
                 }
             }
         }
